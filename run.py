@@ -5,18 +5,11 @@ import networkx
 from AutoFeasRest.Model.Algorithm.ArisILP import ArisILP
 from AutoFeasRest.Model.Algorithm.BinpackHeur import BinpackHeur
 from AutoFeasRest.Model.Algorithm.RamyILP import RamyILP
-from AutoFeasRest.Model.Algorithm.Request import VMRequest, NewVMRequest, HostedVMRequest
-from AutoFeasRest.Model.Graph.Link import VirtualLink, LinkSpecs, PhysicalLink
-from AutoFeasRest.Model.Graph.Network import PhysicalNetwork, VirtualNetwork
-from AutoFeasRest.Model.Graph.Node import Server, VirtualMachine, Router, DummyVirtualMachine
-from AutoFeasRest.Model.Graph.Specs import Specs
+from AutoFeasRest.Model.Graph.Network import PhysicalNetwork
 from AutoFeasRest.InfeasAnalysis.InfeasAnalysis import InfeasAnalyzer
-import matplotlib.pyplot as plt
-import networkx as nx
-
 from AutoFeasRest.Parsing.InputParser import InputParser
 from AutoFeasRest.Parsing.OutputParser import OutputParser
-from AutoFeasRest.Visualization.Visualizer import NetworkVisualizer, RequestVisualizer
+from AutoFeasRest.Visualization.Visualizer import NetworkVisualizer
 
 
 # TODO: Improve Network Visualization
