@@ -8,8 +8,9 @@ Automatic Feasibility Restoration Tool for Network Services.
 ***
 1. [Features](#features)
 2. [Technologies](#technologies)
-3. [Authors](#authors)
-4. [License](#license)
+3. [Publications](#publications)
+4. [Authors](#authors)
+5. [License](#license)
 
 ### Features
 ***
